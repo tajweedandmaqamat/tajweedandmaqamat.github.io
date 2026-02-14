@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Tajweed & Maqamat Academy</title>
+    <title>Start Quran Classes | Contact Qualified USA & UAE Teachers</title>
+    <meta
+      name="description"
+      content="Start learning Quran online by submitting your details and class interest. Connect with qualified USA and UAE Quran teachers."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,31 +27,53 @@
     </header>
 
     <main class="section container page-content">
-      <h1>Contact Us</h1>
+      <h1>Start Learning Quran Online</h1>
       <p>
-        We would love to hear from you. Reach out for class registration,
-        collaboration, or any questions about Tajweed and Maqamat learning.
+        Fill out the form below and our team will contact you about the best
+        class option for Qaida, Nazira, Hifz, Tajweed, or Quran translation.
       </p>
 
-      <div class="cards single-column">
-        <article class="card">
-          <h2>Email</h2>
-          <p><a href="mailto:hello@tajweedmaqamatacademy.com">hello@tajweedmaqamatacademy.com</a></p>
-        </article>
-        <article class="card">
-          <h2>WhatsApp</h2>
-          <p>+1 (555) 123-4567</p>
-        </article>
-        <article class="card">
-          <h2>Office Hours</h2>
-          <p>Monday - Friday: 9:00 AM - 6:00 PM (UTC)</p>
-        </article>
-      </div>
+      <form
+        id="enrollment-form"
+        class="enrollment-form card"
+        action="mailto:tajweedmaqamt@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+
+        <label for="interest">I am interested in</label>
+        <select id="interest" name="interest" required>
+          <option value="" selected disabled>Select one option</option>
+          <option>Qaida Classes</option>
+          <option>Nazira Classes</option>
+          <option>Hifz Program</option>
+          <option>Tajweed Course</option>
+          <option>Quran Translation</option>
+          <option>Female Teacher Request</option>
+        </select>
+
+        <label for="comment">Comment</label>
+        <textarea
+          id="comment"
+          name="comment"
+          rows="5"
+          placeholder="Share preferred schedule, student age, country, or anything we should know."
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Send Request</button>
+      </form>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-wrap">
         <p>&copy; <span id="year"></span> Tajweed & Maqamat Academy.</p>
+        <p class="visitor-counter">Visitors: <span id="visitor-count">Loading...</span></p>
       </div>
     </footer>
 
