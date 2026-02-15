@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate | Tajweed & Maqamat Academy</title>
+    <meta
+      name="description"
+      content="Support students and Tajweed & Maqamat learning through charity or zakat. Reach out by email form and our team will discuss your support by phone."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,29 +27,62 @@
     </header>
 
     <main class="section container page-content">
-      <h1>Support This Mission</h1>
+      <h1>Support Students and Our Work</h1>
       <p>
-        Your donation helps us provide affordable Quran education, free learning
-        resources, and scholarships for students who cannot afford classes.
+        If you want to support students and our work, please reach out to us by
+        email using the form below. We will speak with you by phone and see how
+        we can be your advocate in spending your charity or zakat in a trusted,
+        impactful way.
       </p>
 
-      <div class="cards">
-        <article class="card">
-          <h2>One-Time Donation</h2>
-          <p>Contribute any amount to support course production and operations.</p>
-          <a class="btn" href="#">Donate Once</a>
-        </article>
-        <article class="card">
-          <h2>Monthly Sponsorship</h2>
-          <p>Become a sustaining supporter and help sponsor students year-round.</p>
-          <a class="btn" href="#">Sponsor Monthly</a>
-        </article>
-        <article class="card">
-          <h2>Student Scholarship</h2>
-          <p>Fund tuition for students in need who want to learn Quran recitation.</p>
-          <a class="btn" href="#">Fund a Scholarship</a>
-        </article>
-      </div>
+      <form
+        id="donation-contact-form"
+        class="enrollment-form card"
+        action="mailto:tajweedmaqamt@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="donor-name">Full Name</label>
+        <input id="donor-name" name="name" type="text" autocomplete="name" required />
+
+        <label for="donor-email">Email Address</label>
+        <input
+          id="donor-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+        />
+
+        <label for="donor-phone">Phone Number</label>
+        <input
+          id="donor-phone"
+          name="phone"
+          type="tel"
+          autocomplete="tel"
+          placeholder="Include country code"
+          required
+        />
+
+        <label for="support-type">I want to support through</label>
+        <select id="support-type" name="support_type" required>
+          <option value="" selected disabled>Select one option</option>
+          <option>Charity (Sadaqah)</option>
+          <option>Zakat</option>
+          <option>General Student Support</option>
+        </select>
+
+        <label for="support-message">Message</label>
+        <textarea
+          id="support-message"
+          name="message"
+          rows="5"
+          placeholder="Tell us your preferred call time and how you want your support to be used."
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Email Our Team</button>
+      </form>
     </main>
 
     <footer class="site-footer">
