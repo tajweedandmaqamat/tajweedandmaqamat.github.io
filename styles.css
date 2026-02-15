@@ -100,6 +100,24 @@ h3 {
   margin-top: 1.2rem;
 }
 
+.trial-offer {
+  margin-top: 2rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  padding: 1.2rem;
+  box-shadow: 0 12px 30px rgba(35, 111, 58, 0.1);
+}
+
+.trial-offer h2 {
+  margin: 0.2rem 0 0.6rem;
+  font-size: clamp(1.2rem, 2.6vw, 1.8rem);
+}
+
+.trial-offer p {
+  margin-bottom: 1rem;
+}
+
 .btn {
   display: inline-block;
   background: var(--primary);
