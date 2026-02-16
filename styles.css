@@ -94,6 +94,13 @@ h3 {
   margin-bottom: 0.7rem;
 }
 
+
+.arabic-hero-heading {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .hero-actions {
   display: flex;
   gap: 0.75rem;
