@@ -1,82 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Start Quran Classes | Contact Qualified USA & UAE Teachers</title>
-    <meta
-      name="description"
-      content="Start learning Quran online by submitting your details and class interest. Connect with qualified USA and UAE Quran teachers."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="index.html">Tajweed & Maqamat Academy</a>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-            <li><a class="btn btn-small" href="donate.html">Donate</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main class="section container page-content">
-      <h1>Start Learning Quran Online</h1>
-      <p>
-        Fill out the form below and our team will contact you about the best
-        class option for Qaida, Nazira, Hifz, Tajweed, or Quran translation.
-      </p>
-
-      <form
-        id="enrollment-form"
-        class="enrollment-form card"
-        action="mailto:tajweedmaqamt@gmail.com"
-        method="post"
-        enctype="text/plain"
-      >
-        <label for="name">Full Name</label>
-        <input id="name" name="name" type="text" autocomplete="name" required />
-
-        <label for="email">Email Address</label>
-        <input id="email" name="email" type="email" autocomplete="email" required />
-
-        <label for="interest">I am interested in</label>
-        <select id="interest" name="interest" required>
-          <option value="" selected disabled>Select one option</option>
-          <option>Qaida Classes</option>
-          <option>Nazira Classes</option>
-          <option>Hifz Program</option>
-          <option>Tajweed Course</option>
-          <option>Quran Translation</option>
-          <option>Female Teacher Request</option>
-        </select>
-
-        <label for="comment">Comment</label>
-        <textarea
-          id="comment"
-          name="comment"
-          rows="5"
-          placeholder="Share preferred schedule, student age, country, or anything we should know."
-          required
-        ></textarea>
-
-        <button type="submit" class="btn">Send Request</button>
-      </form>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>&copy; <span id="year"></span> Tajweed & Maqamat Academy.</p>
-        <p class="visitor-counter">Visitors: <span id="visitor-count">Loading...</span></p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book an Online Quran Lesson | Tajweed & Maqamat Academy</title>
+<meta name="description" content="Ask about online Quran lessons in Tajweed, Maqamat, Qaida, Nazira, Hifz or translation. Share your goals and request a free trial session.">
+<link rel="canonical" href="https://tajweedandmaqamat.github.io/contact.html">
+<meta property="og:title" content="Book an Online Quran Lesson">
+<meta property="og:description" content="Tell us your learning goals and request a free trial session.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="index.html">
+<span class="brand-mark" aria-hidden="true">ت</span>
+<span>Tajweed & Maqamat Academy</span>
+</a>
+<nav aria-label="Main navigation">
+<ul class="nav-links">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about.html">About</a>
+</li>
+<li>
+<a href="blog.html">Learning guide</a>
+</li>
+<li>
+<a href="support.html">Support</a>
+</li>
+<li>
+<a class="active" aria-current="page" href="contact.html">Contact</a>
+</li>
+<li>
+<a class="btn btn-small" href="#enrollment-form">Book a trial</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main" class="section container page-content">
+<p class="overline">Your learning starts here</p>
+<h1>Request a trial lesson</h1>
+<p>Tell us a little about the learner and what you hope to study. The teacher will follow up by email to discuss lesson options and scheduling.</p>
+<p>Prefer email? Write to <a href="mailto:tajweedmaqamt@gmail.com">tajweedmaqamt@gmail.com</a>.</p>
+<form id="enrollment-form" class="enrollment-form card" action="mailto:tajweedmaqamt@gmail.com" method="post" enctype="text/plain">
+<label for="name">Your name</label>
+<input id="name" name="name" type="text" autocomplete="name" required>
+<label for="email">Email address</label>
+<input id="email" name="email" type="email" autocomplete="email" required>
+<label for="learner">Who are the lessons for?</label>
+<select id="learner" name="learner" required>
+<option value="" selected disabled>Choose one</option>
+<option>Myself</option>
+<option>My child</option>
+<option>Another learner</option>
+</select>
+<label for="interest">What would you like to learn?</label>
+<select id="interest" name="interest" required>
+<option value="" selected disabled>Choose a learning goal</option>
+<option>Tajweed and Quran recitation</option>
+<option>Maqamat</option>
+<option>Qaida and Arabic reading</option>
+<option>Nazira</option>
+<option>Hifz and revision</option>
+<option>Quran translation</option>
+<option>Request a female teacher</option>
+<option>Not sure yet</option>
+</select>
+<label for="schedule">Country and preferred schedule</label>
+<input id="schedule" name="schedule" type="text" placeholder="For example, evenings in your time zone">
+<label for="message">Anything else the teacher should know?</label>
+<textarea id="message" name="message" rows="5" placeholder="Share the learner’s age, current reading level, or your goals.">
+</textarea>
+<button type="submit" class="btn">Email lesson request</button>
+<p class="form-note">This form opens your email app to send the request. You can also email directly using the address above.</p>
+</form>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<a class="footer-brand" href="index.html">Tajweed & Maqamat Academy</a>
+<p>Personal Quran learning with a special focus on Tajweed and Maqamat.</p>
+</div>
+<div class="footer-links">
+<p class="footer-title">Explore</p>
+<a href="about.html">Teaching approach</a>
+<a href="blog.html">Learning guide</a>
+<a href="support.html">Student support</a>
+</div>
+<div class="footer-links">
+<p class="footer-title">Get in touch</p>
+<a href="mailto:tajweedmaqamt@gmail.com">Email the teacher</a>
+<a href="donate.html">Support the work</a>
+</div>
+</div>
+<div class="footer-bottom">© <span id="year">
+</span> Tajweed & Maqamat Academy</div>
+</div>
+</footer>
+<script src="script.js" defer>
+</script>
+</body>
 </html>

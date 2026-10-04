@@ -1,97 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donate | Tajweed & Maqamat Academy</title>
-    <meta
-      name="description"
-      content="Support students and Tajweed & Maqamat learning through charity or zakat. Reach out by email form and our team will discuss your support by phone."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="index.html">Tajweed & Maqamat Academy</a>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a class="btn btn-small active" href="donate.html">Donate</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main class="section container page-content">
-      <h1>Support Students and Our Work</h1>
-      <p>
-        If you want to support students and our work, please reach out to us by
-        email using the form below. We will speak with you by phone and see how
-        we can be your advocate in spending your charity or zakat in a trusted,
-        impactful way.
-      </p>
-
-      <form
-        id="donation-contact-form"
-        class="enrollment-form card"
-        action="mailto:tajweedmaqamt@gmail.com"
-        method="post"
-        enctype="text/plain"
-      >
-        <label for="donor-name">Full Name</label>
-        <input id="donor-name" name="name" type="text" autocomplete="name" required />
-
-        <label for="donor-email">Email Address</label>
-        <input
-          id="donor-email"
-          name="email"
-          type="email"
-          autocomplete="email"
-          required
-        />
-
-        <label for="donor-phone">Phone Number</label>
-        <input
-          id="donor-phone"
-          name="phone"
-          type="tel"
-          autocomplete="tel"
-          placeholder="Include country code"
-          required
-        />
-
-        <label for="support-type">I want to support through</label>
-        <select id="support-type" name="support_type" required>
-          <option value="" selected disabled>Select one option</option>
-          <option>Charity (Sadaqah)</option>
-          <option>Zakat</option>
-          <option>General Student Support</option>
-        </select>
-
-        <label for="support-message">Message</label>
-        <textarea
-          id="support-message"
-          name="message"
-          rows="5"
-          placeholder="Tell us your preferred call time and how you want your support to be used."
-          required
-        ></textarea>
-
-        <button type="submit" class="btn">Email Our Team</button>
-      </form>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>&copy; <span id="year"></span> Tajweed & Maqamat Academy.</p>
-        <p class="visitor-counter">Visitors: <span id="visitor-count">Loading...</span></p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support Quran Learning | Tajweed & Maqamat Academy</title>
+<meta name="description" content="Contact Tajweed & Maqamat Academy to discuss supporting Quran learning and student access through a charitable contribution.">
+<link rel="canonical" href="https://tajweedandmaqamat.github.io/donate.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="index.html">
+<span class="brand-mark" aria-hidden="true">ت</span>
+<span>Tajweed & Maqamat Academy</span>
+</a>
+<nav aria-label="Main navigation">
+<ul class="nav-links">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about.html">About</a>
+</li>
+<li>
+<a href="blog.html">Learning guide</a>
+</li>
+<li>
+<a href="support.html">Support</a>
+</li>
+<li>
+<a href="contact.html">Contact</a>
+</li>
+<li>
+<a class="btn btn-small active" aria-current="page" href="donate.html">Support the work</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main" class="section container page-content">
+<p class="overline">Support Quran learning</p>
+<h1>Help make learning more accessible</h1>
+<p>If you would like to discuss supporting Quran education or helping a student access lessons, please contact us. We can talk through the purpose and practical details before you decide whether to contribute.</p>
+<div class="card" style="max-width:720px;margin-top:1.5rem">
+<h2>Talk with us first</h2>
+<p>Send an email describing the kind of support you have in mind. We will respond to discuss whether it fits the academy’s current needs.</p>
+<a class="btn" href="mailto:tajweedmaqamt@gmail.com?subject=Supporting%20Quran%20learning">Email about supporting lessons</a>
+<p class="form-note" style="margin-top:1rem">Please contact us before sending funds. This website does not process donations or make claims about tax deductibility or zakat eligibility.</p>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<a class="footer-brand" href="index.html">Tajweed & Maqamat Academy</a>
+<p>Personal Quran learning with a special focus on Tajweed and Maqamat.</p>
+</div>
+<div class="footer-links">
+<p class="footer-title">Explore</p>
+<a href="about.html">Teaching approach</a>
+<a href="blog.html">Learning guide</a>
+<a href="support.html">Student support</a>
+</div>
+<div class="footer-links">
+<p class="footer-title">Get in touch</p>
+<a href="contact.html#enrollment-form">Request a trial</a>
+<a href="mailto:tajweedmaqamt@gmail.com">Email the teacher</a>
+</div>
+</div>
+<div class="footer-bottom">© <span id="year">
+</span> Tajweed & Maqamat Academy</div>
+</div>
+</footer>
+<script src="script.js" defer>
+</script>
+</body>
 </html>
